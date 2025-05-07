@@ -108,7 +108,7 @@ Responses were aggregated and analyzed to identify patterns in performance and u
 For more robust evaluation in the future, we will integrate the survey directly into the app. We also may adopt standard usability benchmarks or compare user sentiment before and after major updates.
 
 
-## Discussion
+## Discussion and Reflection
 M.A.V.I.S was evaluated through a structured post-use survey where it was tested on speed, conversation quality, personality accuracy, and overall experience. Users rated its witty personality highly (4.8/5) and gave strong marks for overall experience (4.4/5), which tells us that the assistant’s tone and character set it apart from traditional voice interfaces. However, response speed scored lowest (2.2/5), pointing to a need for backend optimization.
 
 Conversational accuracy also scored well (4.2/5), confirming that Gemini 1.5 did a good job with giving quality and relevant responses, especially when guided by our system prompt to maintain the M.A.V.I.S persona. Feedback supported our goal of making the assistant feel more human-like in casual exchanges.
