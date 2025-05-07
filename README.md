@@ -101,7 +101,7 @@ How quickly did M.A.V.I.S respond to your voice?
 What would you rate your overall experience with M.A.V.I.S?
 
 The results are shown in this figure:
-![M.A.V.I.S Feedback](user_feedback.png)
+![M.A.V.I.S Feedback](figures/user_feedback.png)
 
 Responses were aggregated and analyzed to identify patterns in performance and user satisfaction. We then improved M.A.V.I.S based on this data, prioritizing features and improvements that align with user needs and expectations. For example, the relatively low rating for conversation flow (3.2) allowed us to prompt Gemini to be more concise and natural. The feedback mainly showed us we needed faster response times and a "personality" that distinguished it from something like Gemini or ChatGPT.
 
