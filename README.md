@@ -162,4 +162,4 @@ Additionally, enhancing the app’s accessibility and inclusivity remains a top 
 
 [^16]: SUS and Likert-Style Evaluation. https://www.interaction-design.org/literature/article/system-usability-scale?srsltid=AfmBOooQgGpWxFwAN1UCGiLy8SBjtbQUMom10GkAUezJYCSLiFzJM0AY
 
-[^17] whisper.cpp. https://github.com/ggml-org/whisper.cpp
+[^17]: whisper.cpp. https://github.com/ggml-org/whisper.cpp
