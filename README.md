@@ -40,7 +40,11 @@ The current version of M.A.V.I.S is developed using Swift within Apple’s Xcode
 Once the audio is transcribed, the resulting text is packaged into a backend request and sent through a Firebase-connected function that communicates with Google’s Gemini 1.5 model. To ensure Gemini 1.5 responds with M.A.V.I.S's personality, we prepend each user prompt with the system-level instruction prompt "You are MAVIS(My Average Very Intelligent System). Your goal is to help user as an asistant. You have a witty british personality." This is put into every API call to Gemini, where natural language understanding is then performed and it generates a coherent, context-aware response. 
 
 The response is then rendered in the mobile app as text, simulating a conversational exchange with the assistant.
-<img src="figures/interaction.png" alt="Interaction" width="330"/>
+<div style="display: flex;">
+  <img src="figures/interaction.png" alt="Interaction" width="330"/>
+</div>
+
+
 
 User authentication is handled via Google OAuth 2.0, enabling secure login and laying the groundwork for future integrations with Google Calendar, Gmail, and other productivity tools. OAuth tokens are securely stored and session management is handled through Firebase’s built-in authentication and session infrastructure. For extensibility and benchmarking purposes, the app also includes functionality for users to test different Whisper model versions and compare performance across devices.
 
