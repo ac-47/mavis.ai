@@ -8,8 +8,8 @@ What sets M.A.V.I.S apart is its focus on contextual awareness, neural network i
 
 At present, M.A.V.I.S is a functioning app with a [Firebase](https://firebase.google.com/) backend supporting Google login via [OAuth 2.0](https://oauth.net/2/). It features a preloaded Whisper base model for speech-to-text conversion and connects to Gemini via backend API to process user prompts through a powerful LLM. The app includes a built-in benchmarking option and a modular structure to support future expansions. 
 <div style="display: flex; gap: 10px;">
-  <img src="figures/signin.png" alt="Sign In" width="300"/>
-  <img src="figures/demo.png" alt="Initial home" width="300"/>
+  <img src="figures/demo2.png" alt="Sign In" width="300"/>
+  <img src="figures/demo1.png" alt="Initial home" width="300"/>
 </div>
 
 
