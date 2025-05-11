@@ -51,8 +51,9 @@ User authentication is handled via Google OAuth 2.0, enabling secure login and l
 Audio files are stored with timestamps and saved locally for optional analysis, debugging, or future personalization. Throughout the system, we maintain a strong emphasis on data privacy, transparency, and ethical AI usage. Key challenges include managing varying audio input quality, ensuring fast API response times, and preserving user trust by securing sensitive data end-to-end.
 
 The full pipeline is outlined in this flowchart:
-<img src="figures/flowchart.png" alt="flowchart" width="330"/>
-
+<div style="display: flex;">
+  <img src="figures/flowchart.png" alt="flowchart" width="330"/>
+</div>
 
 ## Ethical Sweep
 
