@@ -41,7 +41,7 @@ Once the audio is transcribed, the resulting text is packaged into a backend req
 
 The response is then rendered in the mobile app as text, simulating a conversational exchange with the assistant.
 <div style="display: flex;">
-  <img src="figures/interaction.png" alt="Interaction" width="330"/>
+  <img src="figures/video_demo.gif" width="330" />
 </div>
 
 
