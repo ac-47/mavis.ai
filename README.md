@@ -35,13 +35,14 @@ And finally, to help with some of the nuts and bolts of building this, we leaned
 Overall, our approach to M.A.V.I.S blends what’s been done before with some fresh takes—like giving it a real personality, making it visually and auditorily engaging, and thinking through the ethical side from the beginning. It’s not just about building a tool, it’s about reimagining what interacting with AI could feel like.
 
 ## Methods
-The current version of M.A.V.I.S is developed using Swift within Apple’s Xcode IDE for iOS deployment, with backend services built in Python and hosted via Firebase. Our primary focus has shifted toward delivering real-time, mobile-based user interactions powered by a robust neural network pipeline. The application utilizes OpenAI’s Whisper model for on-device speech-to-text conversion, enabling fast and accurate transcription of spoken input without requiring a cloud-based speech service. Users initiate voice interactions through a clean and intuitive iOS interface (see screenshots), which then triggers the transcription pipeline.
+The current version of M.A.V.I.S is developed using Swift within Apple’s Xcode IDE for iOS deployment, with backend services built in Python and hosted via Firebase. Our primary focus has shifted toward delivering real-time, mobile-based user interactions powered by a robust neural network pipeline. The application utilizes OpenAI’s Whisper model for on-device speech-to-text conversion, enabling fast and accurate transcription of spoken input without requiring a cloud-based speech service. Users initiate voice interactions through a clean and intuitive iOS interface, which then triggers the transcription pipeline.
 
 Once the audio is transcribed, the resulting text is packaged into a backend request and sent through a Firebase-connected function that communicates with Google’s Gemini 1.5 model. To ensure Gemini 1.5 responds with M.A.V.I.S's personality, we prepend each user prompt with the system-level instruction prompt "You are MAVIS (My Average Very Intelligent System). Your goal is to help user as an asistant. You have a witty british personality." This is put into every API call to Gemini, where natural language understanding is then performed and it generates a coherent, context-aware response. 
 
 The response is then rendered in the mobile app as text, simulating a conversational exchange with the assistant.
 <div style="display: flex;">
   <img src="figures/video_demo.gif" width="300"/>
+  <img src="figures/video_demo3.gif" width="300"/>
 </div>
 
 Alternatively, users have the freedom to choose from various speech recognition models based on their specific needs and preferences. Larger, more powerful models may offer improved performance, but they require loading times.
