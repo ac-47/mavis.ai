@@ -58,7 +58,7 @@ Audio files are stored with timestamps and saved locally for optional analysis, 
 
 The full pipeline is outlined in this flowchart:
 <div style="display: flex;">
-  <img src="figures/flowchart2.png" alt="flowchart" width="330"/>
+  <img src="figures/flowchart2.png" alt="flowchart" width="630"/>
 </div>
 
 
