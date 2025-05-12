@@ -58,10 +58,9 @@ Audio files are stored with timestamps and saved locally for optional analysis, 
 
 The full pipeline is outlined in this flowchart:
 <div style="display: flex;">
-  <img src="figures/flowchart.png" alt="flowchart" width="330"/>
+  <img src="figures/flowchart2.png" alt="flowchart" width="330"/>
 </div>
 
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/4ecbc128-de3c-40cc-9300-8016cec57d9d" id="qZRewW0692ln"></iframe></div>
 
 ## Ethical Sweep
 
