@@ -111,15 +111,15 @@ To evaluate M.A.V.I.S, we collected user feedback through a structured post-inte
 
 Participants interacted with M.A.V.I.S for 5 minutes, and were then asked to rate the following on a scale of 1 (very poor) to 5 (excellent):
 
-How would you rate the quality, accuracy, and relevancy of M.A.V.I.S’s responses?
+***How would you rate the quality, accuracy, and relevancy of M.A.V.I.S’s responses?***
 
-How would you rate M.A.V.I.S’s witty behavior?
+***How would you rate M.A.V.I.S’s witty behavior?***
 
-How natural did the conversation feel during your interaction with M.A.V.I.S?
+***How natural did the conversation feel during your interaction with M.A.V.I.S?***
 
-How quickly did M.A.V.I.S respond to your voice?
+***How quickly did M.A.V.I.S respond to your voice?***
 
-What would you rate your overall experience with M.A.V.I.S?
+***What would you rate your overall experience with M.A.V.I.S?***
 
 The results are shown in this figure:
 ![M.A.V.I.S Feedback](figures/user_feedback.png)
