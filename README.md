@@ -197,4 +197,4 @@ Additionally, enhancing the app’s accessibility and inclusivity remains a top 
 
 [^17]: whisper.cpp. https://github.com/ggml-org/whisper.cpp
 
-[^18] Attention is All You Need. https://arxiv.org/abs/1706.03762
+[^18]: Attention is All You Need. https://arxiv.org/abs/1706.03762
