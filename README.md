@@ -45,6 +45,12 @@ The response is then rendered in the mobile app as text, simulating a conversati
   <img src="figures/video_demo2.gif" width="300"/>
 </div>
 
+Alternatively, users have the freedom to choose from various pre-loaded speech recognition models based on their specific needs and preferences. Larger, more acurrate models may offer improved performance, but they require longer loading times.
+
+
+<div style="display: flex;">
+  <img src="figures/video_demo2.gif" width="300"/>
+</div>
 
 
 User authentication is handled via Google OAuth 2.0, enabling secure login and laying the groundwork for future integrations with Google Calendar, Gmail, and other productivity tools. OAuth tokens are securely stored and session management is handled through Firebase’s built-in authentication and session infrastructure. For extensibility and benchmarking purposes, the app also includes functionality for users to test different Whisper model versions and compare performance across devices.
