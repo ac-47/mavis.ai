@@ -39,9 +39,13 @@ The current version of M.A.V.I.S is developed using Swift within Apple’s Xcode
 
 Once the audio is transcribed, the resulting text is packaged into a backend request and sent through a Firebase-connected function that communicates with Google’s Gemini 1.5 model. To ensure Gemini 1.5 responds with M.A.V.I.S's personality, we prepend each user prompt with the system-level instruction prompt "You are MAVIS (My Average Very Intelligent System). Your goal is to help user as an asistant. You have a witty british personality." This is put into every API call to Gemini, where natural language understanding is then performed and it generates a coherent, context-aware response. 
 
-The response is then rendered in the mobile app as text, simulating a conversational exchange with the assistant.
+We perform a validation test to verify that the pipeline functions as intended.
 <div style="display: flex;">
   <img src="figures/video_demo.gif" width="300"/>
+</div>
+
+The response is rendered in the mobile app as text, simulating a conversational exchange with the assistant.
+<div style="display: flex;">
   <img src="figures/video_demo3.gif" width="300"/>
 </div>
 
