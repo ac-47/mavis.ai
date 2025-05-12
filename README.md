@@ -73,7 +73,7 @@ The full pipeline is outlined in this flowchart:
 ### Architecture
 We explore the architectural framework of Open AI’s Whisper, a weakly supervised deep learning model based on encoder-decoder transformer architecture. The processing pipeline begins with audio input converted into a spectrogram and normalized within the range of –1 to 1. This becomes input to the encoder, which processes it through two convolutional layers and adds sinusoidal positional embeddings. This is then processed through transformer encoder blocks, where the output layer is normalized. A transformer decoder is used, incorporating learned positional embeddings in addition to input-output token representations (refer to the section below for further detail).  
 
-We now delineate Google’s Gemini Large Language Model (LLM) architecture. The model was trained on an exhaustive set of multilingual and multi-modal datasets (as to supplement its other capabilities). As pioneer of the architecture itself, Google’s Gemini adopted a transformer-based model. An overview and a corresponding diagram from Google’s “Attention is All You Need” research paper is given below. 
+We now delineate Google’s Gemini Large Language Model (LLM) architecture. The model was trained on an exhaustive set of multilingual and multi-modal datasets (as to supplement its other capabilities). As pioneer of the architecture itself, Google’s Gemini adopted a transformer-based model. An overview and a corresponding diagram from [Google’s “Attention is All You Need”](https://arxiv.org/abs/1706.03762) research paper is given below. 
 
 <div style="display: flex;">
   <img src="figures/transformer1.png" width="630"/>
@@ -196,3 +196,5 @@ Additionally, enhancing the app’s accessibility and inclusivity remains a top 
 [^16]: SUS and Likert-Style Evaluation. https://www.interaction-design.org/literature/article/system-usability-scale?srsltid=AfmBOooQgGpWxFwAN1UCGiLy8SBjtbQUMom10GkAUezJYCSLiFzJM0AY
 
 [^17]: whisper.cpp. https://github.com/ggml-org/whisper.cpp
+
+[^18] Attention is All You Need. https://arxiv.org/abs/1706.03762
