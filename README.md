@@ -46,7 +46,7 @@ We perform a validation test to verify that the pipeline functions as intended.
 
 The response is rendered in the mobile app as text, simulating a conversational exchange with the assistant.
 <div style="display: flex;">
-  <img src="figures/video_demo3.gif" width="300"/>
+  <img src="figures/video_demo4.gif" width="300"/>
 </div>
 
 Alternatively, users have the freedom to choose from various speech recognition models based on their specific needs and preferences. Larger, more powerful models may offer improved performance, but they require longer loading times.
@@ -74,7 +74,7 @@ The full pipeline is outlined in this flowchart:
 ## Ethical Sweep
 
 
-**General Questions:** 
+### General Questions:
 
 **Should we even be doing this?** 
 Yes—if built responsibly, M.A.V.I.S has the potential to improve user interaction, accessibility, and productivity. However, this requires careful oversight, such as human-in-the-loop review mechanisms, ethical design audits, transparency in decision-making, and clearly defined boundaries for system capabilities to prevent misuse or overreliance. 
@@ -89,7 +89,7 @@ Our team includes members from various technical and creative backgrounds.
 We will document model decisions, communicate its limitations, and provide explanations for its generated responses when possible.
 
 
-**Data Questions:**
+### Data Questions:
 
 **Is our data valid for its intended use?** 
 The data will require ongoing validation and updates to maintain its relevance and accuracy.
