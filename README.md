@@ -60,7 +60,7 @@ Alternatively, users have the freedom to choose from various speech recognition 
 User authentication is handled via Google OAuth 2.0, enabling secure login and laying the groundwork for future integrations with Google Calendar, Gmail, and other productivity tools. OAuth tokens are securely stored and session management is handled through Firebase’s built-in authentication and session infrastructure. 
 
 <div style="display: flex;">
-  <img src="figures/demo5" width="300"/>
+  <img src="figures/demo5.pg" width="300"/>
 </div>
 
 For extensibility and benchmarking purposes, the app also includes functionality for users to test different Whisper model versions and compare performance across devices.
@@ -78,6 +78,7 @@ The full pipeline is outlined in this flowchart:
 </div>
 
 ### An Aside: Architecture
+placeholder text
 
 
 ## Ethical Sweep
