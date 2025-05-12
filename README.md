@@ -42,10 +42,9 @@ Once the audio is transcribed, the resulting text is packaged into a backend req
 The response is then rendered in the mobile app as text, simulating a conversational exchange with the assistant.
 <div style="display: flex;">
   <img src="figures/video_demo.gif" width="300"/>
-  <img src="figures/video_demo2.gif" width="300"/>
 </div>
 
-Alternatively, users have the freedom to choose from various pre-loaded speech recognition models based on their specific needs and preferences. Larger, more acurrate models may offer improved performance, but they require longer loading times.
+Alternatively, users have the freedom to choose from various pre-loaded speech recognition models based on their specific needs and preferences. Larger, more accurate models may offer improved performance, but they require longer loading times.
 
 
 <div style="display: flex;">
