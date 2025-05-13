@@ -49,7 +49,7 @@ The response is rendered in the mobile app as text, simulating a conversational 
   <img src="figures/video_demo4.gif" width="300"/>
 </div>
 
-Alternatively, users have the freedom to choose from various speech recognition models based on their specific needs and preferences. Larger, more powerful models may offer improved performance, but they require longer loading times.
+users have the option to choose from various speech recognition models based on their specific needs and preferences. Larger, more powerful models may offer improved performance, but they require longer loading times.
 
 
 <div style="display: flex;">
@@ -73,7 +73,7 @@ The full pipeline is outlined in this flowchart:
 ### Architecture
 We explore the architectural framework of Open AI’s Whisper, a weakly supervised deep learning model based on encoder-decoder transformer architecture. The processing pipeline begins with audio input converted into a spectrogram and normalized within the range of –1 to 1. This becomes input to the encoder, which processes it through two convolutional layers and adds sinusoidal positional embeddings. This is then processed through transformer encoder blocks, where the output layer is normalized. A transformer decoder is used, incorporating learned positional embeddings in addition to input-output token representations (refer to the section below for further detail).  
 
-We now delineate Google’s Gemini Large Language Model (LLM) architecture. The model was trained on an exhaustive set of multilingual and multi-modal datasets (as to supplement its other capabilities). As pioneer of the architecture itself, Google’s Gemini adopted a transformer-based model. An overview and a corresponding diagram from [Google’s “Attention is All You Need”](https://arxiv.org/abs/1706.03762) research paper is given below. 
+We now shift attention to Google’s Gemini Large Language Model (LLM) architecture. The model was trained on an exhaustive set of multilingual and multi-modal datasets (as to supplement its other capabilities). As pioneer of the architecture itself, Google’s Gemini adopted a transformer-based model. An overview and a corresponding diagram from [Google’s “Attention is All You Need”](https://arxiv.org/abs/1706.03762) paper is given below. 
 
 <div style="display: flex;">
   <img src="figures/transformer1.png" width="630"/>
@@ -81,7 +81,7 @@ We now delineate Google’s Gemini Large Language Model (LLM) architecture. The 
 
 The encoder component transforms the input sequence into embeddings (or numerical representations), encapsulating the semantics and position of tokens. A self-attention mechanism—as is referenced in the title of the paper—is what is needed for transformers to bring focus on the most important tokens in the input sequence, irrelevant of position. Correspondingly, the decoder utilizes self-attention and output embeddings to produce the most statistically probable tokens in the output sequence.  
 
-What makes a transformer distinct from other architectures is its dependency on self-attention mechanisms to compute input and output representations without the need for sequence-aligned RNNs for convolution. The encoder functions to map an input sequence to a sequence of continuous representations. Subsequently, the decoder generates an output sequence of symbols, one component at a time. The model is auto regressive, incorporating the previously generated symbols as part of the input when producing the next.  
+What makes a transformer distinct from other architectures is its dependency on self-attention mechanisms to compute input and output representations without the need for sequence-aligned RNNs for convolution. The encoder maps an input sequence to a sequence of continuous representations. Subsequently, the decoder generates an output sequence of symbols, one element at a time. The model is auto regressive, incorporating the previously generated symbols as part of the input when producing the next.  
 
 ## Ethical Sweep
 
