@@ -49,7 +49,7 @@ The response is rendered in the mobile app as text, simulating a conversational 
   <img src="figures/video_demo4.gif" width="300"/>
 </div>
 
-users have the option to choose from various speech recognition models based on their specific needs and preferences. Larger, more powerful models may offer improved performance, but they require longer loading times.
+Users have the option to choose from various speech recognition models based on their specific needs and preferences. Larger, more powerful models may offer improved performance, but they require longer loading times.
 
 
 <div style="display: flex;">
